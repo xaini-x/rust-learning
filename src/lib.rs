@@ -1,5 +1,9 @@
-pub mod product ;
+pub use customer::Customer;
+pub use product::{Category,Product};
+pub use order::Order;
 
-pub mod customer ;
+mod product ;
 
-pub mod order ;
+ mod customer ;
+
+ mod order ;
